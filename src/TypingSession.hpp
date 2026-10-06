@@ -1,3 +1,6 @@
+#ifndef TYPINGSESSION_H
+#define TYPINGSESSION_H
+
 #include "Passage.hpp"
 #include <string>
 #include <string_view>
@@ -45,3 +48,4 @@ class TypingSession{
 
 };
 typedef TypingSession<char> StringTypingSession ;
+#endif

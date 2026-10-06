@@ -1,3 +1,5 @@
+#ifndef PASSAGE_H
+#define PASSAGE_H
 #include <string>
 template <typename CharT>
 class Passage{
@@ -23,3 +25,4 @@ class Passage{
     }
 };
 typedef Passage<char> StringPassage;
+#endif
