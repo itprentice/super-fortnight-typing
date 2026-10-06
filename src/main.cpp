@@ -13,6 +13,6 @@ int main(int argc, char* argv[]){
         input.push_back(' ');
         session.submitText(input);
     }
-    std::cout << session.mistakeCount() << " mistakes.";
+    std::cout << session.mistakeCount() << " mistakes." << std::endl;
     return 0;
 }
